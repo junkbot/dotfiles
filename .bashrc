@@ -113,5 +113,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export MAKEFILES="$HOME/Makefile"
+export MAKEFILES=$MAKEFILES:"$HOME/dotfiles/Makefile"
 export EDITOR=vim

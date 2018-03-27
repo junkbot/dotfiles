@@ -22,5 +22,6 @@ int main() {
   for (int z=1;z<=T;z++) {
     printf("Case #%d: ",z);
   }
+
   return 0;
 }

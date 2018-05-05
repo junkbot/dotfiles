@@ -14,14 +14,8 @@ typedef pair<int,int> pii;
 typedef pair<ll,ll> pll;
 
 const ll MOD = (ll)(1e9)+7ll;
+const ll INF = (1ll << 60);
 
 int main() {
-  int T;
-  scanf("%d",&T);
-
-  for (int z=1;z<=T;z++) {
-    printf("Case #%d: ",z);
-  }
-
   return 0;
 }

@@ -31,9 +31,9 @@ let g:airline#extensions#tabline#show_buffers = 0
 let g:airline#extensions#tabline#buffer_min_count =2
 
 " YCM
-let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
-let g:ycm_confirm_extra_conf = 0
-"let g:ycm_autoclose_preview_window_after_completion = 1
+let g:ycm_global_ycm_extra_conf = '~/.vim/ycm_extra_conf.py'
+"let g:ycm_confirm_extra_conf = 1
+let g:ycm_autoclose_preview_window_after_completion = 1
 
 " Typescript
 if !exists("g:ycm_semantic_triggers")
@@ -42,9 +42,12 @@ endif
 let g:ycm_semantic_triggers['typescript'] = ['.']
 let g:ycm_semantic_triggers.tex = g:vimtex#re#youcompleteme
 
+" Vimtex
+" let g:vimtex_view_method = 'zathura'
+
 " Colors!
 syntax on
-let g:tex_flavor="latex"
+let g:tex_flavor = 'latex'
 
 set t_Co=256
 set background=dark
@@ -76,8 +79,8 @@ set splitright
 set mouse=a
 
 " Text width and wrapping
-set textwidth=80
-set colorcolumn=81
+set textwidth=120
+set colorcolumn=121
 
 " Wildmenu
 set wildmode=longest:full,full
